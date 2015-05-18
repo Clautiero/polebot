@@ -5,3 +5,6 @@ channel   = polebot, polebot2
 
 [Plugin::Authen]
 passfile = passwords
+
+[Plugin::Faq]
+filename = /path/of/db_file
