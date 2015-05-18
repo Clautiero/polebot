@@ -74,7 +74,7 @@ sub load_passwords {
    my $self = shift;
    if (my $conf = $self->master()->get_plugin_config(ref $self)) {
       if (-e $conf->{passfile}) {
-         $self->{password_for} = Config::Tiny->read($conf->{passfile})->{_};
+         $self->{password_for} = Config::Tiny->read(->{passfile})->{_};
       }
    }
    else {
