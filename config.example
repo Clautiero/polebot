@@ -1,7 +1,0 @@
-verbosity = DEBUG 
-nick      = polebotXXX
-password  = 
-channel   = polebot, polebot2
-
-[Plugin::Authen]
-passfile = passwords
